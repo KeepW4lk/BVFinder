@@ -15,7 +15,7 @@ BVFinder is a baseband firmware static vulnerability prototype detection tool de
 | shannonloader-1.0.4-f9eeca3-ghidra_10.1.5.zip | Ghidra plugin for load shannon baseband firmware.            |
 | ghidra_10.1.5_PUBLIC_BVFinder.zip             | BVFinder tool provided as a Ghidra plugin.                   |
 | logStringMatch.py                             | Python script used for matching debugging information and specification descriptions. |
-| reverse/*                                     | Ghidra post-loading Python scripts that help annotate Shannon modem images. This includes recovering debug strings and auto-naming functions. Use after loading with ShannonLoader. **(Move these scripts to $USER_HOME$/ghidra_scripts).** These scripts are from [Grant-h](https://github.com/grant-h/ShannonBaseband/tree/master/reversing/ghidra/scripts). |
+| reverse/*                                     | Ghidra post-loading Python scripts that help annotate Shannon modem images. This includes recovering debug strings and auto-naming functions. Use after loading with ShannonLoader. (Move these scripts to `$USER_HOME$/ghidra_scripts).` These scripts are from [Grant-h](https://github.com/grant-h/ShannonBaseband/tree/master/reversing/ghidra/scripts). |
 | script/*                                      | Script for quickly start.                                    |
 | firmware/*                                    | Raw baseband firmware(CP_G960FXXS2BRH8).                     |
 
